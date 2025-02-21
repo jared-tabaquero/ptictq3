@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+      <title>Tabaquero_Manguera_q3pt</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+      <title>UNTOUCHABLE</title>
+<style>
+ 
+ h1 { text-align: center;
+ font-size: 100px;}
+   ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 30px;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px ;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+}
+
+
+input[type=text]:focus {
+  background-color: lightgreen;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+body{ background-color: #8ACE00;
+font-family: "Black Ops One", sans-serif;
+text-align: center;
+margin: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 309px;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  float:left;
+  
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.form{
+  width: 400px;
+  margin: auto;
+}
+
+</style>
+</head>
+
+<body>
+
+<ul>
+  <li><a href="#home">UNTOUCHABLE</a></li>
+  <li><a href="#news">Delivery Information</a></li>
+  <li><a href="#contact">Complaints?</a>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Products</a>
+    <div class="dropdown-content">
+      <a href="#">Gear</a>
+      <a href="#">BB Guns</a>
+      <a href="#">Kids'</a>
+    </div>
+  </li>
+</ul>
+  </div>
+</div>
+<h1>UNTOUCHABLE</h1>
+
+
+<div class="container">
+<div class="card">
+  <img src="https://m.media-amazon.com/images/I/81wuqcryJZL._AC_UF1000,1000_QL80_.jpg" alt="Denim Jeans" style="width:100%" >
+  <h2>Colt 1911</h2>
+  <p class="price">Php1911</p>
+  <p><button>Add to Cart</button></p>
+ </div>
+
+<div class="card">
+  <img src="https://cdn11.bigcommerce.com/s-yck5k/images/stencil/605x405/products/13103/68669/tf3-high-speed-airsoft-body-armor-black__56245.1610845948.jpg?c=2" alt="Denim Jeans" style="width:100%">
+  <h2>Chest Armor</h2>
+  <p class="price">Php500</p>
+  <p><button>Add to Cart</button></p>
+ </div>
+
+<div class="card">
+  <img src="https://m.media-amazon.com/images/I/61TkO23UCqL.jpg" alt="Denim Jeans" style="width:100%">
+  <h2>Desert Eagle</h2>
+  <p class="price">Php699</p>
+  <p><button>Add to Cart</button></p>
+ </div>
+
+<div class="card">
+  <img src="https://www.kidsarmyshop.com/wp-content/uploads/2021/09/M24-Airsoft-Pistol.jpg" alt="Denim Jeans" style="width:100%">
+  <h2>M24 (for kids)</h2>
+  <p class="price">Php350</p>
+  <p><button>Add to Cart</button></p>
+ </div>
+
+ <div class="card">
+  <img src="https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_2.625,f_auto,h_214,q_auto,w_380/c_pad,h_214,w_380/F9185743-01?pgw=1" alt="Denim Jeans" style="width:100%">
+  <h2>Safety Glasses</h2>
+  <p class="price">Php50</p>
+  <p><button>Add to Cart</button></p>
+ </div>
+
+<div class="form">
+<h2>About You</h2>
+<p>Here, fill out this form so we can deliver your order.</p>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+
+  <label for="fname">Address</label>
+  <input type="text" id="fname" name="fname">
+
+  <label for="fname">Country</label>
+  <input type="text" id="fname" name="fname">
+
+  <label for="fname">Phone Number</label>
+  <input type="text" id="fname" name="fname">
+  
+<input type="submit" value="Submit">
+</form>
+</div>
+    </body>
+    </html>
